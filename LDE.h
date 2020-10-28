@@ -12,7 +12,7 @@ typedef struct list {
     Node* end;
 } List;
 
-List* cria();
+List* create();
 
 void insertInStart(List** list, int value);
 

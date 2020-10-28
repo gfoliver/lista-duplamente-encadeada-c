@@ -2,7 +2,7 @@
 #include<stdio.h>
 #include "LDE.h"
 
-List* cria() {
+List* create() {
     List* newList = (List*) malloc(sizeof(List));
 
     newList->start = NULL;

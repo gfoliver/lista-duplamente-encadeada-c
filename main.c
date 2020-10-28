@@ -3,7 +3,7 @@
 #include "LDE.h"
 
 int main() {
-    List* list = cria();
+    List* list = create();
 
     insertInStart(&list, 1);
     insertInEnd(&list, 2);
